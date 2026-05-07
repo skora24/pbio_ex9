@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 def validate_positive_int(prompt: str, min_val: int = 1, max_val: int = 100_000) -> int:
     """
+    Bartosz Skóra S30972, 07.05.2026r
     Pobiera liczbę od użytkownika i sprawdza, czy mieści się w zakresie.
     Jeśli użytkownik wpisze tekst lub liczbę spoza zakresu, funkcja zapyta ponownie.
     """
